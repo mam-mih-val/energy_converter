@@ -9,8 +9,8 @@ int main(int n_args, char** args) {
 	std::cout << "Error: lack of arguments. 1 argument required" << std::endl;
 	return 1;
   }
-  const double M = 0.938;
   double sqrt_s = std::atof(args[1]);
+  const double M = 0.938;
   double T = sqrt_s*sqrt_s/ 2 / M - 2*M;
   const double GAMMA = (T + M) / M;
   const double BETA = sqrt(1 - (M * M) / (M + T) / (M + T));
