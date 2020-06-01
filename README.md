@@ -1,5 +1,5 @@
 ## Building 
-Follow the instructions above
+Follow the instructions bellow
 ```
     $ git clone https://github.com/mam-mih-val/energy_converter
     $ cd energy convertesr
